@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[测试资源文件夹]]></title>
+    <url>%2F2019%2F09%2F26%2F%E6%B5%8B%E8%AF%95%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
+    <content type="text"><![CDATA[猫猫照片!]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[我的第一篇博客]]></title>
+    <url>%2F2019%2F09%2F26%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[记录我的第一篇博客！]]></content>
+      <tags>
+        <tag>记录</tag>
+      </tags>
+  </entry>
+</search>
