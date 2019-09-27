@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo配置静态个人博客]]></title>
     <url>%2F2019%2F09%2F27%2Fhexo%E9%85%8D%E7%BD%AE%E9%9D%99%E6%80%81%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[在 Win10 下面使用 Hexo 配置一个静态个人博客！写得不对欢迎支出。。]]></content>
+    <content type="text"><![CDATA[在 Win10 下面使用 Hexo 配置一个静态个人博客！写得不对欢迎支出 &lt;!–more&gt; 正文 Windows下面配置 hexo第一步–安装 首先要安装 git ，因为 hexo 很多操作都涉及命令行，所以还要配置 git 的环境变量 配置 git 的环境变量 打开系统属性里面的环境变量 选择系统变量 path 添加 /安装路径/git/cmd 例如我的就是 C:\Program Files\Git\cmd 安装 Node.js ，并记得在安装步骤勾选 add Path 这个选项 上两步完成后可以安装 hexo了，使用 $npm install -g hexo-cli 命令安装 hexo ，并等待安装完成 第二步–建站 用 cd 命令进入到你想把 hexo 保存的路径 ，例如 D:\ 下面 然后执行以下命令 123$hexo init &lt;你想要的文件名&gt;cd &lt;文件名&gt;npm install 这些命令会在你的文件夹下面新建所需要的文件 然后到目录下面找到 _config.yml 中配置博客的信息了 快速搭建只需要修改下面这些信息就行了 参数 描述 值（例子） title 网站标题 JOJO的博客 subtitle 网站副标题 JOJO description 网站描述 技术 JOJO author 你的名字 JOJO url 网址 你的域名 第三步–在本地生成服务器 在 hexo 目录下执行 $hexo generate 命令生成静态文件，该命令也可以简写成 $hexo g 然后执行 $hexo deploy 部署网站，也可以简写成 $hexo d 最后启动服务器，执行 hexo server ，然后就可以访问了，访问的默认地址为 localhost:4000 至此，在 Windows 本地情况下配置 hexo 个人博客就是这样做了！ 接下来就是部署到 github 上面，利用 githubPage ，实现我们的个人博客在网上也能访问]]></content>
       <tags>
         <tag>教程</tag>
       </tags>
